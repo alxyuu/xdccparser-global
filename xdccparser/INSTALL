@@ -1,0 +1,18 @@
+Requirements:
+PHP5 (has not been tested with PHP4, but it should work)
+Smarty Template Engine
+Highly Recommended:
+XCache (will work without it, but will be noticeably slower if there are many packs.) 
+
+See your host for questions regarding the requirements.
+
+
+Instructions: 
+
+all packlists must be in the packlists folder.
+you can either use a cron to upload, or use your own solution built into iroffer. whatever works for you.
+make sure templates_c and cache is chmoded to 777
+
+IMPORTANT:
+Please note that the packlists are cached and will not automagically update whenever the packlist is replaced.
+An example packlist updater is included as packup.php

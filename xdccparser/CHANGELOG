@@ -1,0 +1,11 @@
+revision 2:
+- no longer treating hyphens as spaces
+- small js reorganization
+- use REQUEST rather than POST in the example packlist updater
+- included Smarty
+
+revision 1:
+- fixed unchecked xcache method
+
+revision 0:
+- initial v1.1 release
